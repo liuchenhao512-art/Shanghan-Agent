@@ -1,0 +1,16 @@
+伤寒论图标：蓝底古籍，繁体 v2
+生成日期：2026年10月9日
+生成方式：内置 image_gen 图像编辑工具。
+输入图像：伤寒论图标_蓝底古籍_v1.png
+输出图像：伤寒论图标_蓝底古籍_繁体_v2.png
+用户修订：将文字改为繁体“傷寒論”，延续蓝底、米白题签、线装古籍风格。
+验证：已目视核对繁体“傷寒論”三字，图像为1254×1254；项目复制件与生成原图的 SHA256 一致。
+原简体版本保留；本次仅生成设计素材，未更改应用图标配置。
+
+完整编辑提示词：
+Use case: text-localization
+Asset type: square application icon, Chinese ancient book cover.
+Input image: edit target, existing blue ancient-book-style 伤寒论 icon.
+Change ONLY the three calligraphic characters on the cream vertical title slip to traditional Chinese, exactly “傷寒論”, arranged top to bottom: 傷 / 寒 / 論.
+The first character MUST be 傷 (traditional, not 伤); the middle remains 寒; the third MUST be 論 (traditional with full 言 radical, not 论). Use correct, fully legible traditional Chinese character structures in the same elegant bold black classical kaishu calligraphic style, balanced size and spacing within the existing title slip.
+Keep the original composition, square canvas, indigo blue cloth background, cream paper label, double blue border, binding cords, texture, palette and lighting unchanged. Preserve everything outside the lettering as closely as possible. No extra text, seals, watermark, objects or layout change.

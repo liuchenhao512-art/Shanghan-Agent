@@ -1,0 +1,28 @@
+伤寒论图标：蓝底繁体无装订线圆角 v1
+日期：2026-10-09
+制作方式：内置图像编辑工具。
+用户输入：C:/Users/liuch/AppData/Local/Temp/codex-clipboard-830b65ae-d47c-43f9-b870-1a6c3b45860d.png
+最终图片：伤寒论图标_蓝底繁体_无装订线_圆角_v1.png
+尺寸与格式：1254×1254像素，PNG，RGBA。
+SHA256：928131A8DD6C4EFB42319823916E4D747D196EEA8E733B190AF9D7A51B823AE2
+
+修改：去除最左侧全部米白色装订绳、四组横向装订线与绳结，补全蓝色布纹；保留右侧米色题签、蓝色双边框、黑色繁体“傷寒論”及圆角构图。
+验证：已目视核对左侧无装订线残留、主体字样与构图保留；最终PNG含透明通道，四角Alpha均为0，范围0–255；项目复制件与生成原图SHA256一致。
+过程：首轮结果将外侧透明区绘制成灰白格背景，已通过第二次图像编辑修复为真正透明。最终交付仅采用修复后的PNG。
+说明：生成式编辑可能微调布纹及纸张纹理，不保证非修改区域逐像素相同；原图及历史版本保留。本轮仅交付图片，未替换软件图标。
+
+第一轮完整编辑提示词：
+Use case: precise-object-edit.
+The attached image is the exact edit target. Make only this local change: remove ALL cream-white book-binding cords from the far LEFT side, including the long vertical cord, the four horizontal stitch cords and all knots, shadows, and traces of the cords. They occupy the narrow strip about x=0–110 across the height of the 1254×1254 image. Inpaint this entire former cord area with the same rich royal-blue cloth texture as the surrounding cover. The left edge should become an uninterrupted blue rounded edge with no binding line, stitch, seam, badge or new decoration.
+
+Preserve everything else as faithfully as possible: the original saturated royal-blue hue and textile texture; the tall cream paper title label on the RIGHT with its exact blue double-line rectangular border; the exact black traditional Chinese calligraphy 傷 / 寒 / 論, its stroke shapes, size, position and spacing; original label location and dimensions; original composition. Do NOT move or center the title label after removing the cords. Do NOT replace the cream label or black text with gold. Do not redesign, flatten, recolor or add anything.
+
+Keep the same 1254×1254 square canvas and smooth rounded-square outer silhouette. The four outside corners must remain genuinely alpha-transparent, not opaque black or white. No added padding, no external shadow, no watermarks, no mockup. Return one edited PNG.
+
+第二轮透明背景修复提示词：
+Use case: background-extraction.
+Edit the attached PNG to fix its transparency ONLY.
+The image is a blue rounded-square app icon with an ivory label and black Traditional Chinese text 傷寒論. Binding cords have already been removed; there must continue to be NO binding cords.
+The gray-and-white checkerboard visible OUTSIDE the blue rounded-square silhouette is an unwanted painted background. REMOVE EVERY checkerboard pixel outside the icon silhouette, including thin strips along the four outside edges. Replace that exterior with actual alpha=0 transparent pixels. Export a genuine RGBA PNG with transparent corners. DO NOT draw or simulate transparency using gray/white squares. No opaque black background, no white background, no checkerboard whatsoever in the actual image data outside the silhouette.
+Preserve the blue icon interior, blue cloth texture, colors, ivory title label, blue double frame and exact black lettering 傷寒論 as faithfully as possible. Do not move, resize, crop or redraw interior elements. Keep 1254x1254 canvas, same smooth rounded silhouette and clean antialiased edge. Only remove the external checkerboard and make it alpha-transparent. Single finished transparent PNG, no mockup.
+

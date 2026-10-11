@@ -1,0 +1,53 @@
+伤寒论图标：保留古籍样式，宣纸色与淡金原文水印，繁体 v4
+生成日期：2026年10月9日
+生成方式：内置 image_gen 图像编辑工具。
+输出图像：伤寒论图标_古籍原样宣纸金字水印_繁体_v4.png
+尺寸：1254×1254像素。
+
+本轮用户明确要求：保留原来的古籍样式及“傷寒論”几个字的样式，只更换背景颜色，并在背景加入来自《伤寒论》原文的竖排淡金色水印。
+编辑底图：伤寒论图标_蓝底古籍_繁体_v2.png。
+配色参考：参考图/图2_宣纸色封面_20261009.png。
+编辑结果：保留左侧线装、偏右竖长题签、双线蓝色边框与黑色繁体大字风格；题签外的底色改为暖米白宣纸色，加入淡金色竖排原文水印。
+
+水印原文依据：
+项目文件 resources/builtin/parsed/sanjiazhu.json 的 passages 原文字段；本次直接读取并核对第1、2、281条，未使用 comments 注家文字。
+该语料 meta 底本说明：原文以《注解伤寒论》为准，人民卫生出版社1963年版。此为项目语料所载出处，本次未重新核验纸本扫描页。
+
+第1条：太阳之为病，脉浮，头项强痛而恶寒。
+水印繁体排版：太陽之為病脈浮頭項強痛而惡寒
+
+第2条：太阳病，发热，汗出，恶风，脉缓者，名为中风。
+水印繁体排版：太陽病發熱汗出惡風脈緩者名為中風
+
+第281条：少阴之为病，脉微细，但欲寐也。
+水印繁体排版：少陰之為病脈微細但欲寐也
+
+排版处理：将项目中的简体转为繁体用于水印，去除现代标点及条文编号，按竖排列显示，允许重复形成背景纹样。
+验证：已目视核对古籍构图、线装、题签边框、前景繁体字样与淡金水印；图片可正常读取，项目复制件与生成原图的 SHA256 一致。图像编辑保留原设计样式，不作逐像素相同的声明。
+状态：另存 v4，保留 v1、v2、v3；未更改应用图标配置。
+
+完整编辑提示词：
+Use case: precise-object-edit
+Asset type: revised square 傷寒論 antique sewn-book app icon.
+Image 1 is the EXACT EDIT TARGET, the blue traditional Chinese antique sewn-book icon.
+Image 2 is ONLY a color and watermark-style reference. Never copy its product-book shape, typography, title blocks, or layout.
+
+This is a very restricted background-only edit. Preserve the original antique book cover structure and exact foreground title lettering from Image 1. Do not redesign or recompose the image.
+
+LOCK / KEEP UNCHANGED:
+- The entire existing tall cream title label at center-right, its size, position, paper tone, thin double dark-blue border and inner margins. It spans approximately x=47%–82%, y=5%–95% of the image.
+- All three large black calligraphic traditional Chinese characters “傷寒論” exactly as drawn in Image 1. Preserve the shapes, brush strokes, scale, spacing and placement, preferably retain the original pixels. Do not redraw, restyle, simplify or move the title.
+- The white cotton binding cords and four knots along the far left edge, with their original size, location, shape and relief.
+- The square crop, flat frontal viewpoint, and original composition.
+
+ONLY TWO CHANGES TO THE LARGE BLUE COVER BACKGROUND OUTSIDE THE LABEL:
+1. Replace the blue ground with light warm ivory / cream xuan-paper color, around #F7F1E3, inspired by the front-cover color of Image 2. Retain delicate tactile paper/cloth texture, understated and clean, not heavily stained. The old dark-blue title-label border must remain unchanged.
+2. On this recolored background only, add very faint pale champagne-gold vertical classical Chinese original-text watermarks. Fine elegant handwritten / woodblock-style characters, around 10–15% contrast, clearly subordinate to the existing black title. Place airy vertical text columns down the open area to the left of the label and a faint column in the open right margin. Read top-to-bottom and columns right-to-left. Use accurate traditional Chinese from the verified original passages below, without the clause numbers or punctuation. Text can repeat to form a subtle continuous pattern. Keep all watermarks BEHIND the label and cords; no writing on the title label, black title or binding cords.
+
+Verified original text for watermark, use only these exact Chinese strings:
+“太陽之為病脈浮頭項強痛而惡寒”
+“太陽病發熱汗出惡風脈緩者名為中風”
+“少陰之為病脈微細但欲寐也”
+
+Final appearance: the SAME traditional sewn-book cover and SAME black 傷寒論 calligraphy as Image 1, with its intact bordered title label and intact left sewn binding, now on a warm cream background with delicate pale-gold vertical original-text watermarks.
+Avoid any other changes. Do not remove the border, remove the binding, enlarge the title, center the title, change the font, add seals or extra title text, make a modern poster, change the composition, or put watermarks on the label. Single square icon, no mockup.

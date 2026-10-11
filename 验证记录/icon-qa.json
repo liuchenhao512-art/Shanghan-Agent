@@ -1,0 +1,31 @@
+{
+  "version": "0.3.3",
+  "passed": true,
+  "checks": [
+    "Windows应用EXE和安装器均嵌入与指定ICO一致的9种尺寸图标",
+    "打包后的窗口图标资源与源文件完全一致",
+    "0.3.3打包程序启动、内置条文载入、窗口图标解码和界面图标加载通过",
+    "取得系统Shell图标预览；EXE嵌入图标以资源逐项比对结果为准"
+  ],
+  "errors": [],
+  "files": [
+    {
+      "file": "dist\\win-unpacked\\伤寒论智能体.exe",
+      "bytes": 246417920,
+      "sha256": "33869635f41ac04273b4beb4a40b5c5f85ebbedf6647c57315cf46df4596541e"
+    },
+    {
+      "file": "dist\\Shanghan-Agent-0.3.3-win-x64.exe",
+      "bytes": 142967512,
+      "sha256": "1354593157b498240165c55245e99648836a87f74207d44cc0110eec853b17f3"
+    }
+  ],
+  "runtime": {
+    "version": "0.3.3",
+    "packaged": true,
+    "windowIconSize": {
+      "width": 256,
+      "height": 256
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+build/
+dist/
+.test-data/
+.dev-data/
+.env
+.env.*
+*.log
+credentials*
+
+# 个人运行数据与备份不进入代码仓库；只读内置语料单独保留。
+/数据目录/
+*.sqlite
+*.sqlite-*
+*.db
+!resources/builtin/kb.sqlite
+*.shanghan.zip
+*.pem
+*.key
+
+# 历史交付物与手动清理目录仅保留在本机。
+/旧文件_待手动删除*/
+/旧版本包_待手动删除*/
+/待手动删除*/

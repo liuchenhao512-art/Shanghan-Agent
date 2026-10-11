@@ -1,0 +1,10 @@
+const { spawnSync } = require('node:child_process');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const python = path.join(root, '.venv', process.platform === 'win32' ? 'Scripts/python.exe' : 'bin/python');
+const result = spawnSync(python, ['-m', 'PyInstaller', '--noconfirm', '--clean', '--onedir', '--name', 'shanghan-server', '--distpath', 'build/frozen', '--workpath', 'build/pyinstaller', '--specpath', 'build', '--paths', '.', '--collect-data', 'opencc', 'server/entry.py'], { cwd: root, stdio: 'inherit', windowsHide: true });
+if (result.status !== 0) process.exit(result.status || 1);
+const fs = require('node:fs');
+const target = path.join(root, 'build/backend');
+fs.mkdirSync(target, { recursive: true });
+fs.cpSync(path.join(root, 'build/frozen/shanghan-server'), target, { recursive: true });

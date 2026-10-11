@@ -1,0 +1,73 @@
+{
+  "counts": {
+    "passages": 398,
+    "commentators": 9,
+    "comments": 3572,
+    "origbooks": 9,
+    "origpara": 17594,
+    "groups": 23,
+    "textbook_notes": 379
+  },
+  "checks": [
+    {
+      "file": "resources/builtin/kb.sqlite",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/chen_parsed.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/fang_parsed.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/groups.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/origbooks.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/sanjiazhu.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/textbook_notes.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/wuqian_parsed.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/yu_parsed.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/zhang_parsed.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/zhijie_aligned.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    },
+    {
+      "file": "resources/builtin/parsed/zhijie_decoded.json",
+      "copied_unchanged": true,
+      "original_unchanged": true
+    }
+  ]
+}

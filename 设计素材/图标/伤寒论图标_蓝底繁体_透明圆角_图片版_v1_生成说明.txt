@@ -1,0 +1,22 @@
+伤寒论图标：蓝底繁体透明圆角图片版 v1
+生成日期：2026-10-09
+生成方式：内置图像编辑工具，以用户上传图片作为编辑参考。
+用户原图：C:/Users/liuch/AppData/Local/Temp/codex-clipboard-30e60f56-b045-42bf-856b-fd781be10e09.png
+图片文件：伤寒论图标_蓝底繁体_透明圆角_图片版_v1.png
+尺寸：1254 × 1254 像素
+格式：PNG，RGBA，含真实透明通道。
+验证：四个角像素 Alpha 均为 0，透明通道范围 0–255，共 78932 个完全透明像素；项目复制件与生成原图 SHA256 一致。
+设计：蓝底线装古籍，米色矩形题签，黑色繁体“傷寒論”，外轮廓圆角。
+说明：本次为独立生成图片；保留原图与现有软件图标资源。图像生成可能微调纹理，不保证图案逐像素相同。
+
+完整编辑提示词：
+Use case: background-extraction
+Asset type: one finished rounded-square app icon, PNG with real alpha transparency.
+Input image is the exact edit target: a square indigo-blue ancient Chinese stitched book cover, cream framed title label on the right and three black traditional Chinese characters “傷寒論”.
+
+Make only one geometric change: turn the outer square silhouette into a rounded square with smooth, generous rounded corners, radius about 16 percent of the canvas width. Make the four clipped outer corner areas truly transparent (alpha=0). This must be an actual transparent PNG, not white painted corners, not black corners and not a checkerboard texture baked into the image.
+
+Preserve the original inside the rounded-square silhouette as faithfully as possible: same deep blue color and cloth texture, same left white binding cords, same cream paper label with double blue outline, exact original black traditional calligraphic title “傷寒論”, same character shapes, positions, scale and proportions. Keep the original composition and square canvas, no added padding, icon fills the canvas to the straight edges. Do not redraw or restyle the lettering. No new text. No new embellishments. No shadow, bevel, 3D, perspective or exterior background.
+
+Only trim the four outer corners with an antialiased alpha mask. Do not round the inner rectangular title label; it must remain unchanged. Deliver one high-resolution rounded-square icon on a truly transparent background.
+

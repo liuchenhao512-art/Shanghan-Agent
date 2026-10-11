@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
+<title>伤寒论九家注知识库</title>
+<link rel="stylesheet" href="/assets/classic.css">
+</head>
+<body>
+<header>
+  <h1 class="song" id="brandTitle">伤寒论九家注</h1>
+  <span class="sub">教学知识库</span>
+  <div class="tabs">
+    <div class="tab on" data-view="jizhu">逐条集注</div>
+    <div class="tab" data-view="orig">原书阅读</div>
+  </div>
+  <div class="search">
+    <select id="themeSel" title="界面风格">
+      <option value="">风格·现代书院</option>
+      <option value="classic">风格·古朴</option>
+      <option value="modern">风格·现代清爽</option>
+      <option value="dark">风格·墨色夜读</option>
+    </select>
+    <select id="fzSel" title="正文字号">
+      <option value="">字号·标准</option>
+      <option value="l">字号·大</option>
+      <option value="xl">字号·特大</option>
+    </select>
+    <input id="q" placeholder="检索条文 / 注文" />
+    <button id="qbtn">检索</button>
+  </div>
+</header>
+
+<div class="layout">
+  <div class="side-shell" id="sideShell">
+    <div class="side-tools"><span class="side-title">篇章与条文目录</span><button class="side-toggle" id="sideToggle" aria-expanded="true" title="折叠篇章与条文目录">收起</button></div>
+    <div class="side" id="side"></div>
+  </div>
+  <div class="center">
+    <div id="cmtbarbox"></div>
+    <div class="main"><div class="wrap" id="content"><div class="empty">加载中…</div></div></div>
+  </div>
+  <div class="ai-width-divider" id="aiWidthDivider" role="separator" aria-label="调整伤寒论学习助手宽度" aria-orientation="vertical" aria-valuemin="300" aria-valuemax="720" tabindex="0" title="左右拖动调整学习助手宽度；双击恢复默认宽度"></div>
+  <div class="ai" id="aipanel">
+    <div class="ai-head"><span class="t">伤寒论学习助手</span><span class="st" id="aist"></span><button class="ai-reset" id="aireset" title="恢复导读与问答的默认比例">默认布局</button></div>
+    <div class="guide" id="guide" style="display:none">
+      <div class="gh">本条导读<div class="gha"><button id="regen">重新生成</button><button id="guideToggle" aria-expanded="true">收起导读</button></div></div>
+      <div class="guide-content"><div id="tbnote" style="display:none"></div><div class="gbody" id="gbody"></div></div>
+    </div>
+    <div class="ai-divider" id="aiDivider" role="separator" aria-label="调整本条导读与问答区域高度" aria-orientation="horizontal" tabindex="0" title="上下拖动调整大小；双击恢复默认比例"></div>
+    <div class="chat-section" id="chatSection">
+      <div class="chat-head">问答交互<button id="chatToggle" aria-expanded="true">收起问答</button></div>
+      <div class="chat" id="chat">
+        <div class="hint">切换条文时，我会自动生成「本条导读」：<br>概括病机要点，并对各注家观点分类比较。<br><br>你也可以直接提问，例如：<br>「桂枝汤为什么要喝热稀粥？」<br>「柯琴和成无己对太阳病的理解有何不同？」</div>
+      </div>
+      <div class="ai-input">
+        <textarea id="qinput" placeholder="就本条或伤寒论提问…（Enter 发送）"></textarea>
+        <button id="sendbtn">发送</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="searchpanel">
+    <span class="closex" id="closex">×</span>
+    <h2>检索结果</h2>
+    <div class="filters" id="filters"></div>
+    <div id="sresults"></div>
+  </div>
+</div>
+
+<script src="/assets/classic.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+  "selection_date": "2026-10-09",
+  "source": "用户最终上传确认的蓝底繁体伤寒论图标",
+  "corner_radius_ratio": 0.16,
+  "transparent_corners": true,
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "ico_sizes": [
+    [
+      16,
+      16
+    ],
+    [
+      20,
+      20
+    ],
+    [
+      24,
+      24
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      40,
+      40
+    ],
+    [
+      48,
+      48
+    ],
+    [
+      64,
+      64
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "macos_runtime_verified": false,
+  "artifacts": [
+    {
+      "file": "resources/icons/source.png",
+      "bytes": 2501022,
+      "sha256": "3ab7c886a3312e605c56004505819eaab17bd84aa70229ca4e02518b477cac5e"
+    },
+    {
+      "file": "resources/icons/icon.png",
+      "bytes": 401843,
+      "sha256": "e78dbf5fbc3ada3e29cd3f5b0e3a4140d8af052553a8e751812b180286da6172"
+    },
+    {
+      "file": "resources/icons/icon.ico",
+      "bytes": 152367,
+      "sha256": "d989e0c600780defc96329dab25ca4282989917afa38ba0179195a29f83eaa83"
+    },
+    {
+      "file": "resources/icons/icon.icns",
+      "bytes": 2602431,
+      "sha256": "76fd84fc9610f9270de5ff11608f5f0da286c8acfae55be321a7966b20fd07ec"
+    },
+    {
+      "file": "ui/app-icon.png",
+      "bytes": 28472,
+      "sha256": "cac3c2307be3050d696c033fedf6f0033bc32352871deb28e10e73818287df8f"
+    }
+  ]
+}

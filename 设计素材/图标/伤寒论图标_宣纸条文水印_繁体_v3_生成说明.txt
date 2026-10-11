@@ -1,0 +1,37 @@
+伤寒论图标：宣纸条文水印，繁体 v3
+生成日期：2026年10月9日
+生成方式：内置 image_gen 图像生成工具，多图参考风格变体。
+输出图像：伤寒论图标_宣纸条文水印_繁体_v3.png
+尺寸：1254×1254像素。
+用户要求：尝试另一风格，以图2的似宣纸颜色为背景，加入条文水印，前景保留繁体“傷寒論”大字。
+设计：暖米白宣纸底、淡金色竖排古文水印、居中墨色竖排“傷寒論”。
+
+参考文件及用途：
+1. 参考图/图1_古籍内页_20261009.png：用户提供的《注解伤寒论》古籍内页，提供纸质、古文竖排与水印文句参考。
+2. 参考图/图2_宣纸色封面_20261009.png：用户提供的封面图，提供暖米白底色和浅金色文字水印风格参考。
+3. 伤寒论图标_蓝底古籍_繁体_v2.png：上一版图标，提供前景繁体大字及书法风格参考。
+
+水印提示词采用图1《伤寒例》可见文句摘录：
+陰陽大論云春氣溫和夏氣暑熱秋氣清涼冬氣冷冽此則四時正氣之序也冬時嚴寒萬類深藏君子固密則不傷於寒觸冒之者乃名傷寒耳
+图片中的水印用于装饰；文句出处依据用户提供的图1，未作古籍版本校勘。
+
+验证：已目视核对前景繁体“傷寒論”、宣纸色背景与淡金色水印层次；图像和两张参考图的项目复制件均通过 SHA256 一致性校验。
+状态：本图为另一风格候选，保留 v1、v2，尚未替换应用安装图标。
+
+完整生成提示词：
+Use case: style-transfer
+Asset type: One finished square app icon for 傷寒論, flat front-facing artwork, 1:1.
+Input image roles:
+Image 1: reference for authentic Chinese classical medical text and ancient paper texture only.
+Image 2: PRIMARY reference for the background palette and understated decorative text treatment: warm ivory rice-paper ground, very pale honey-gold vertical Chinese calligraphy watermarks.
+Image 3: previous icon, reference for the large black traditional Chinese title and its elegant bold calligraphic character shapes only.
+
+Create a new style variant of the icon. Cover the entire square with refined warm ivory / light cream xuan rice paper, close to the LIGHT book-cover face in image 2, approximately #F7F1E3. Subtle natural paper fibers and gentle variation, clean and luminous, softly aged but not dirty or brown. Across the paper add understated pale champagne / honey-beige classical text as a true visual watermark, about 10–16% contrast, inspired by image 2. Arrange the watermark in 7–9 fine vertical columns reading top-to-bottom, right-to-left, with airy spacing, elegant thin classical Chinese brush calligraphy. Keep this decorative writing much lighter and smaller than the foreground title.
+Watermark source text, taken from the supplied ancient page, use traditional Chinese accurately, break into columns without modern punctuation:
+“陰陽大論云春氣溫和夏氣暑熱秋氣清涼冬氣冷冽此則四時正氣之序也冬時嚴寒萬類深藏君子固密則不傷於寒觸冒之者乃名傷寒耳”
+The watermark may softly continue behind the title, but lighten immediately behind the main strokes to preserve readability.
+
+Foreground: exactly the three traditional Chinese characters “傷寒論”, vertically stacked in a single central column: 傷 at top, 寒 in middle, 論 at bottom. Rich warm black ink, bold and very readable classical kaishu brush calligraphy similar to image 3. The title is the dominant focal point, occupies about 75–80% of the square height and 32–38% width, balanced margins, unmistakable complete traditional characters. Traditional 傷 and 論 are mandatory. Put the title directly on the paper without a box, label plaque or colored panel.
+
+Design a polished restrained Chinese scholarly app icon, beautiful two-layer hierarchy: pale antique script texture behind bold black title. Preserve the exact subject 傷寒論 and square icon format while changing the background to this new reference-led style.
+Avoid: blue, binding cords, blue borders, opaque title slip, orange title block, red seals, other foreground text, author names, logos, invented symbols, decorative plants, books in perspective, product mockup, book spine, desk, photography setting, outside black background, grids of options. Output only one edge-to-edge square icon.

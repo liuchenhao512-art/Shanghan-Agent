@@ -1,0 +1,73 @@
+{
+  "name": "shanghan-agent",
+  "productName": "伤寒论智能体",
+  "version": "0.3.3",
+  "private": true,
+  "description": "本地资料驱动的伤寒论经典研读与学术专题研究",
+  "author": "伤寒教研室",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/desktop.test.cjs",
+    "build:server": "node scripts/build-server.cjs",
+    "build:win": "npm run build:server && node scripts/package.cjs --win nsis --x64",
+    "build:mac:arm64": "npm run build:server && node scripts/package.cjs --mac dmg --arm64",
+    "build:mac:x64": "npm run build:server && node scripts/package.cjs --mac dmg --x64",
+    "pack": "npm run build:server && node scripts/package.cjs --dir"
+  },
+  "devDependencies": {
+    "electron": "44.7.0",
+    "electron-builder": "26.15.3",
+    "playwright": "^1.64.0"
+  },
+  "build": {
+    "appId": "cn.shanghan.agent",
+    "asar": true,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "desktop/**",
+      "ui/**",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "build/backend",
+        "to": "backend"
+      },
+      {
+        "from": "resources/builtin",
+        "to": "builtin"
+      },
+      {
+        "from": "resources/icons",
+        "to": "icons",
+        "filter": [
+          "icon.png",
+          "icon.ico"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "resources/icons/icon.ico",
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "deleteAppDataOnUninstall": false,
+      "installerIcon": "resources/icons/icon.ico",
+      "uninstallerIcon": "resources/icons/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "resources/icons/icon.icns",
+      "category": "public.app-category.education",
+      "identity": null
+    },
+    "artifactName": "Shanghan-Agent-${version}-${os}-${arch}.${ext}"
+  }
+}

@@ -1,0 +1,24 @@
+伤寒论图标：玄青金册去除左下装饰版 v4
+日期：2026-10-09
+制作方式：内置图像编辑工具。
+用户输入：C:/Users/liuch/AppData/Local/Temp/codex-clipboard-c452c122-bbb6-4095-8503-db1140a078fe.png
+输出：06_伤寒论_玄青金册_去除左下装饰_v4.png
+尺寸：1254×1254像素，PNG，RGBA。
+SHA256：AE2F689155BA3151B61DE2088CA699690A32E59B681A819C052DFAAB10C3DD59
+
+修改：按本轮上传版本，去掉左下角独立的金色曲线与三个圆点装饰，补全玄青布纹；保留金色繁体“傷寒論”、题签框、左侧三组装订线与圆角构图，不添加替代标记。
+验证：已目视检查线点装饰消失、主体字样及装订构图保留；PNG透明通道范围0–255，四角Alpha均为0；项目复制件与生成原图SHA256一致。
+说明：采用生成式编辑，纹理可能有细微变化，不保证未编辑区域逐像素相同。原图和历史版本保留；此轮仅交付图片，未替换软件图标。
+
+完整编辑提示词：
+Use case: precise-object-edit.
+The attached image is the EXACT edit target, an indigo textured antique Chinese thread-bound book app icon with gold traditional characters 傷寒論.
+Make ONLY this local removal: erase the small gold curved line and ALL THREE gold dots attached to it in the lower-left interior. This isolated ornament lies approximately within x=174–327, y=978–1141 on the 1254×1254 canvas. Seamlessly reconstruct the matching dark indigo cloth texture in that small region, maintaining its surrounding color, grain and lighting. After removal this region is completely plain cloth with NO dots, NO lines, NO replacement symbol.
+
+Preserve everything else as faithfully as possible: the large vertical gold Traditional Chinese text 傷 / 寒 / 論, exact calligraphic character shapes, gold texture, character positions and sizes; the open thin rectangular gold title frame on the right, including its existing gaps; all three actual gold binding stitches and the full vertical gold rope along the far left; the original dark blue cloth texture across the rest of the cover; overall layout and scale.
+
+IMPORTANT: the far-left long binding rope and its three horizontal binding cords are NOT the ornament to remove and must remain intact. Only remove the isolated three-dot curve in the lower-left blue field, just to the RIGHT of the binding rope.
+Do not redesign, simplify, flatten, recolor, add text, or replace the removed ornament with a badge.
+Keep the same 1254×1254 square canvas and rounded-square icon silhouette. Preserve a genuine alpha-transparent exterior beyond the rounded corners, no opaque black or white background, no new shadow or padding.
+Return a single finished PNG.
+

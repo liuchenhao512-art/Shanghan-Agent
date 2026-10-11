@@ -1,0 +1,71 @@
+伤寒论智能体图标：三种风格探索
+日期：2026-10-09
+制作方式：Product Design 的 ideate 工作流，内置图像生成工具；三个独立调用，每次生成一款。
+需求：再创建不同风格的图标，保留古风，也可融合现代风格；沿用已确认的繁体“傷寒論”和圆角轮廓。
+参考图：D:/工作/伤寒教研室/伤寒论智能体/设计素材/图标/伤寒论图标_蓝底繁体_透明圆角_图片版_v1.png
+参考图用于设计方向与繁体字样，不要求像素级复刻。
+
+编号按本轮实际生成图片在聊天中的显示顺序确定：
+1. 01_伤寒论_宣纸朱印_v1.png：宣纸色、墨字、朱印，传统书卷风格。
+2. 02_伤寒论_青玉简书_v1.png：青玉色、展开书卷与横排繁体字，古风与现代结合。
+3. 03_伤寒论_玄青金册_v1.png：玄青底、金字与线装构图，典藏古籍风格。
+
+三款均为1254×1254像素PNG，RGBA，包含透明通道；原生成文件已复制至本文件夹，SHA256逐一核验一致。
+已目视核对三款的“傷寒論”繁体字、古风元素、构图及圆角轮廓。
+透明检测：前两款四角Alpha均为0；第三款左下角Alpha为1（近乎透明），其余三个角为0。生成轮廓包含少量边缘杂点，作为风格候选保留原始输出；正式应用前可按选定方向继续精修。
+当前交付为三款独立候选图片，尚未替换软件现有图标或重新打包。
+
+SHA256：
+01：88D29707FE4BC584BDC282194F89C02D40AF12CEB13C790BCAD75169CD3AABF4
+02：3D9AC3979201AB0F360928D9F5653551A63DA1C12B09E26E785C03E5C5DB4C7D
+03：342FE283B604EE8306971F9CF89CA53EC3B55CA72FF5E366CA9AAFC3FD18F173
+
+完整提示词：宣纸朱印
+Create a realistic, production-quality app icon design with clear hierarchy, strong typography, intentional imagery and purposeful spacing.
+Use case: logo-brand.
+Asset type: a SINGLE finished desktop application icon for the Chinese classical medicine knowledge and study assistant 傷寒論.
+Target dimensions: 1254 x 1254 pixels, square canvas.
+Input image: the attached existing indigo stitched-book icon is a MOODBOARD REFERENCE for Chinese classical scholarship, correct Traditional Chinese title and rounded shape. This is a new design exploration, not an exact edit. Reinterpret its visual language in the specific direction below.
+Users and outcome: teachers, students and scholars studying the classic; the icon should feel literate, trustworthy, elegant, and recognizable on a desktop.
+Shared hard constraints: keep unmistakable ancient Chinese book / scholarly aesthetics; a crisp rounded-square outer silhouette with corner radius about 18% of the edge and genuinely transparent alpha corners; the colored icon tile should fill the canvas edge to edge along straight sides, without excess exterior padding. All artwork stays inside the shape. This is a flat front-facing icon image, not a photo of a physical icon.
+Text, exactly and only: "傷寒論". These three Traditional Chinese characters must be correctly rendered, highly readable, prominent, and the main visual anchor. Do not use simplified 伤 or 论, no Latin letters, no numbers, no subtitles, no secondary text, no fake ancient microtext.
+Composition: focused primary icon only, generous purposeful breathing room, few strong forms. Simplify details so it still reads at small size. Use typography and spacing first, understated borders only if needed. No separate presentation background, no shadow outside the tile, no phone or desktop mockup, no contact sheet, no multiple variants in one image. No modern medical cross, no pills, no cartoon robot, no generic AI sparkle. No watermarks. Never stretch or warp the title.
+
+Direction name: 宣纸朱印 (name is briefing metadata, do NOT print it).
+Color palette: warm ivory xuan paper #F1E6CB, rich matte cinnabar red #9D382F, deep soot-black #24211C.
+Design: an exquisite contemporary interpretation of an ancient Chinese edition cover. The entire rounded tile is warm ivory with very fine subtle paper fibers, clean and luminous rather than stained. Center a monumental single vertical column of black calligraphic text 傷 / 寒 / 論, taking roughly 72% of canvas height. The brushwork should be bold, calm and authoritative, legible regular-script with genuine brush texture, not a generic computer font. The title sits directly on paper, no rectangular label behind it. At upper left, a small solid vermilion seal-like geometric square containing only abstract carved strokes, absolutely no additional readable characters. One restrained thin vertical cinnabar rule near the left edge, ending before the corners, suggests an antique book's rule line. A tiny hint of a second paper layer along the bottom-right inside the silhouette gives book-like tactility, without perspective or external shadow. Precise alignment, beautiful empty paper, contemporary logo discipline. The dominant experience is ink on ivory with a single red accent. Keep the background calm, no landscape, no elaborate ornament, no repeated watermark text.
+
+完整提示词：青玉简书
+Create a realistic, production-quality app icon design with clear hierarchy, strong typography, intentional imagery and purposeful spacing.
+Use case: logo-brand.
+Asset type: a SINGLE finished desktop application icon for the Chinese classical medicine knowledge and study assistant 傷寒論.
+Target dimensions: 1254 x 1254 pixels, square canvas.
+Input image: the attached existing indigo stitched-book icon is a MOODBOARD REFERENCE for Chinese classical scholarship, correct Traditional Chinese title and rounded shape. This is a new design exploration, not an exact edit. Reinterpret its visual language in the specific direction below.
+Users and outcome: teachers, students and scholars studying the classic; the icon should feel literate, trustworthy, elegant, and recognizable on a desktop.
+Shared hard constraints: keep unmistakable ancient Chinese book / scholarly aesthetics; a crisp rounded-square outer silhouette with corner radius about 18% of the edge and genuinely transparent alpha corners; the colored icon tile should fill the canvas edge to edge along straight sides, without excess exterior padding. All artwork stays inside the shape. This is a flat front-facing icon image, not a photo of a physical icon.
+Text, exactly and only: "傷寒論". These three Traditional Chinese characters must be correctly rendered, highly readable, prominent, and the main visual anchor. Do not use simplified 伤 or 论, no Latin letters, no numbers, no subtitles, no secondary text, no fake ancient microtext.
+Composition: focused primary icon only, generous purposeful breathing room, few strong forms. Simplify details so it still reads at small size. Use typography and spacing first, understated borders only if needed. No separate presentation background, no shadow outside the tile, no phone or desktop mockup, no contact sheet, no multiple variants in one image. No modern medical cross, no pills, no cartoon robot, no generic AI sparkle. No watermarks. Never stretch or warp the title.
+
+Direction name: 青玉简书 (name is briefing metadata, do NOT print it).
+Color palette: pale celadon #B7D3C5 and ivory-white jade #F4F0DD, deep jade-green text #183F39 with a minute muted-gold accent.
+Create a markedly NEW composition, unlike the reference book-cover label: a modern, exceptionally refined Chinese jade / celadon inspired desktop icon. The rounded tile is a softly luminous pale celadon ceramic surface with minimal tonal variation and very subtle porcelain tactile depth. In the upper half, a single elegantly simplified open ancient book icon, ivory jade inlay with just 3 gently curved page lines per side, a clean central fold, and restrained rounded architectural lines recalling a Song-dynasty study. The book is a symbolic, front-view monoline / shallow-relief mark, not a realistic perspective book. Weave a tiny path of three connected gold nodes into the central fold as a subtle sign of linked knowledge, extremely restrained and integrated, not separate decoration.
+In the lower half, place the exact text 傷寒論 in ONE HORIZONTAL ROW, three equally large characters, composed in a bold refined traditional Chinese Song-style type with subtle calligraphic flared terminals, dark jade ink, and exceptional readability. Leave clear separation between book symbol and lettering. The title spans about 78% of the icon width and must remain prominent. Plenty of breathing space but no wasted outer margin.
+No stitched binding cord, no vertical cream label, no paper fiber texture. The ancient feeling comes from the open book, jade, and beautifully drawn traditional Chinese typography; the modern feeling comes from reduction, spacing, clear silhouette and quiet ceramic material. Sophisticated soft-touch finish, not glossy plastic, no harsh glints, no cartoon look. Do not print the direction name.
+
+完整提示词：玄青金册
+Create a realistic, production-quality app icon design with clear hierarchy, strong typography, intentional imagery and purposeful spacing.
+Use case: logo-brand.
+Asset type: a SINGLE finished desktop application icon for the Chinese classical medicine knowledge and study assistant 傷寒論.
+Target dimensions: 1254 x 1254 pixels, square canvas.
+Input image: the attached existing indigo stitched-book icon is a MOODBOARD REFERENCE for Chinese classical scholarship, correct Traditional Chinese title and rounded shape. This is a new design exploration, not an exact edit. Reinterpret its visual language in the specific direction below.
+Users and outcome: teachers, students and scholars studying the classic; the icon should feel literate, trustworthy, elegant, and recognizable on a desktop.
+Shared hard constraints: keep unmistakable ancient Chinese book / scholarly aesthetics; a crisp rounded-square outer silhouette with corner radius about 18% of the edge and genuinely transparent alpha corners; the colored icon tile should fill the canvas edge to edge along straight sides, without excess exterior padding. All artwork stays inside the shape. This is a flat front-facing icon image, not a photo of a physical icon.
+Text, exactly and only: "傷寒論". These three Traditional Chinese characters must be correctly rendered, highly readable, prominent, and the main visual anchor. Do not use simplified 伤 or 论, no Latin letters, no numbers, no subtitles, no secondary text, no fake ancient microtext.
+Composition: focused primary icon only, generous purposeful breathing room, few strong forms. Simplify details so it still reads at small size. Use typography and spacing first, understated borders only if needed. No separate presentation background, no shadow outside the tile, no phone or desktop mockup, no contact sheet, no multiple variants in one image. No modern medical cross, no pills, no cartoon robot, no generic AI sparkle. No watermarks. Never stretch or warp the title.
+
+Direction name: 玄青金册 (name is briefing metadata, do NOT print it).
+Color palette: very deep midnight ink-blue #132936, warm antique gold #D4B370, tiny muted lighter blue details. Strong dark-versus-gold contrast, visually different from the ivory and celadon directions.
+Design a modern museum-quality interpretation of a treasured Chinese thread-bound edition. The entire rounded square is midnight ink-blue with barely perceptible silk-grain texture, elegant and visually quiet. Use a purposeful asymmetric composition: a generous vertical title column on the right half featuring the exact three characters 傷 / 寒 / 論 in LARGE substantial antique-gold brush lettering. The title covers about 76% of tile height; keep each character recognizably correct and generous, modeled on scholarly kaishu with some carved-edition strength. Warm gold is satin, not glittery chrome. A single very thin muted-gold open rectangular rule suggests an old book's title field, with at least one deliberate break; no cream paper rectangle and no bulky double border.
+On the leftmost quarter, transform the reference's book-binding into three clean minimal gold stitched-loop marks at evenly spaced heights, joined by one restrained vertical gold line. Near the lower left, integrate a very small linked constellation of three simple gold dots along a smooth line, subtle enough to read as a decorative old book flourish, suggesting a knowledge network. The title remains overwhelmingly the main feature; do not let symbols compete.
+Ancient elegance through gold-stamped calligraphy and stitched-book organization; modernity through crisp geometry, flattened design, strong negative space and minimal strokes. No decorative landscape, no cloud patterns, no dragons, no red seal, no tiny writing, no gradients or light flares. A single crisp rounded-square PNG with truly transparent exterior corners, no shadow outside silhouette.
+

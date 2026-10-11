@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-11",
+  "directory": "D:\\工作\\伤寒教研室\\伤寒论智能体\\旧文件_待手动删除_2026-10-11_历史验证与测试缓存",
+  "operation": "move_only",
+  "target_count": 23,
+  "file_count": 2999,
+  "total_bytes": 4721159389.0,
+  "sha256_verified": true,
+  "protected_file_count": 174,
+  "protected_files_unchanged": true,
+  "source_targets_absent": true,
+  "permanent_deletion_performed": false,
+  "document_snapshots": [
+    "PROJECT_PLAN.md",
+    "桌面智能体客户端第一版方案.md"
+  ],
+  "status": "moved_and_verified",
+  "documentation_verified": true,
+  "valid_document_links": 11,
+  "software_version": "0.3.3",
+  "application_code_changed": false,
+  "installer_rebuilt": false
+}

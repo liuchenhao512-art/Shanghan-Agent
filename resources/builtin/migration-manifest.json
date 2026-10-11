@@ -1,0 +1,90 @@
+{
+  "source": "D:\\工作\\数智赋能中医药人才培养和文化传播\\伤寒论知识库",
+  "date": "2026-10-08",
+  "files": [
+    {
+      "source": "app/main.py",
+      "target": "server/legacy.py",
+      "sha256": "121c7dbdcb104734a5bf97de6a227e66de121c1aa9c6273c74e19e56d061d53d",
+      "bytes": 16830
+    },
+    {
+      "source": "app/static/index.html",
+      "target": "ui/classic.html",
+      "sha256": "d45dea8bff8d65423687882f68e1f019eabffc245e0a6551f7a8bd39acd5dfe2",
+      "bytes": 54073
+    },
+    {
+      "source": "data/db/kb.sqlite",
+      "target": "resources/builtin/kb.sqlite",
+      "sha256": "bcc671e0eca8107dc920c25db52e3a11f0a1e4a8f0a8642ec52663ffc088bf51",
+      "bytes": 19247104
+    },
+    {
+      "source": "data/parsed/chen_parsed.json",
+      "target": "resources/builtin/parsed/chen_parsed.json",
+      "sha256": "d1a24ee367663e137e87be25e99ea20fc0bf81d01baf5f32dc9366c49a32f8ae",
+      "bytes": 1082168
+    },
+    {
+      "source": "data/parsed/fang_parsed.json",
+      "target": "resources/builtin/parsed/fang_parsed.json",
+      "sha256": "d2a6001bfb6899eca80477ab33031f3ca3c8920c92b732171941066d34930876",
+      "bytes": 786847
+    },
+    {
+      "source": "data/parsed/groups.json",
+      "target": "resources/builtin/parsed/groups.json",
+      "sha256": "9b91cb605046b7c5635ae404ad846a3f519025031a6604960243d399cc399808",
+      "bytes": 2684
+    },
+    {
+      "source": "data/parsed/origbooks.json",
+      "target": "resources/builtin/parsed/origbooks.json",
+      "sha256": "b325a41f4ddf9f7e065d3b435956c5df61971abaeff905ddff4fb32ac61b2c4e",
+      "bytes": 4722315
+    },
+    {
+      "source": "data/parsed/sanjiazhu.json",
+      "target": "resources/builtin/parsed/sanjiazhu.json",
+      "sha256": "c52b3b5705fd85693296e8dd73707f06c897ba970edde147cb03dae101954d5a",
+      "bytes": 848440
+    },
+    {
+      "source": "data/parsed/textbook_notes.json",
+      "target": "resources/builtin/parsed/textbook_notes.json",
+      "sha256": "ece24f23216d4ed6e8fbb141c3ce6814ffa8ffa57b6fd9030993e3867c50212b",
+      "bytes": 725575
+    },
+    {
+      "source": "data/parsed/wuqian_parsed.json",
+      "target": "resources/builtin/parsed/wuqian_parsed.json",
+      "sha256": "6938bad934ef8c44f0d3b6c828b75129f4cca00feb89db48d196264e53e8fccc",
+      "bytes": 983886
+    },
+    {
+      "source": "data/parsed/yu_parsed.json",
+      "target": "resources/builtin/parsed/yu_parsed.json",
+      "sha256": "3bedc54ad6072a0ff3cfd678249273fe32e6bb01bcd4a02ed8167ef211312aeb",
+      "bytes": 852239
+    },
+    {
+      "source": "data/parsed/zhang_parsed.json",
+      "target": "resources/builtin/parsed/zhang_parsed.json",
+      "sha256": "fd6b9418babfab2eb2ee3fc865347230391836ae969c10106ed121de9d1f2665",
+      "bytes": 777643
+    },
+    {
+      "source": "data/parsed/zhijie_aligned.json",
+      "target": "resources/builtin/parsed/zhijie_aligned.json",
+      "sha256": "ca56c03f822f5c5b2ca034f1e5b4d8914e85de623d84ae9f22d303cab538e31b",
+      "bytes": 347324
+    },
+    {
+      "source": "data/parsed/zhijie_decoded.json",
+      "target": "resources/builtin/parsed/zhijie_decoded.json",
+      "sha256": "f3dc5714546cf2f0626e58bcad5ac9ca6fefa1717926d7b9959fb329f3c52668",
+      "bytes": 1502847
+    }
+  ]
+}
