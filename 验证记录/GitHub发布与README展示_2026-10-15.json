@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-15",
+  "repository": "https://github.com/liuchenhao512-art/Shanghan-Agent",
+  "release_url": "https://github.com/liuchenhao512-art/Shanghan-Agent/releases/tag/v0.3.3",
+  "release_id": 413690063,
+  "tag": "v0.3.3",
+  "draft": false,
+  "prerelease": true,
+  "tag_commit": "18f57c6271f9aad65cb34a6173f0957654e8b504",
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/liuchenhao512-art/Shanghan-Agent/releases/download/v0.3.3/SHA256SUMS.txt",
+      "bytes": 99,
+      "sha256": "3db6064f57f678367e8fb7361f844db020682af38a9ef44e8f6698bdec6a8422",
+      "github_digest_matches": true,
+      "public_download_http_status": 200
+    },
+    {
+      "name": "Shanghan-Agent-0.3.3-win-x64.exe",
+      "url": "https://github.com/liuchenhao512-art/Shanghan-Agent/releases/download/v0.3.3/Shanghan-Agent-0.3.3-win-x64.exe",
+      "bytes": 142967512,
+      "sha256": "1354593157b498240165c55245e99648836a87f74207d44cc0110eec853b17f3",
+      "github_digest_matches": true,
+      "public_download_http_status": 200
+    }
+  ],
+  "readme_screenshot_count": 5,
+  "github_readme_rendered": true,
+  "screenshot_dimensions": "3840x2160",
+  "original_screenshots_unchanged": true,
+  "application_code_changed": false,
+  "installer_rebuilt": false,
+  "model_called": false,
+  "asset_upload_retried_after_http_408": true,
+  "validation": "GitHub asset SHA256 and size match local files; unauthenticated public download HEAD returns 200; checksum file downloaded and compared; five README images decoded in browser",
+  "pending_acceptance": [
+    "Windows clean-system installation",
+    "real-model academic quality",
+    "macOS arm64/x64 native builds and acceptance"
+  ]
+}
