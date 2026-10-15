@@ -2,11 +2,49 @@
 
 本地运行的《伤寒论》经典阅读、个人专题资料管理与有出处的学术研读工具。
 
-源码仓库：[liuchenhao512-art/Shanghan-Agent](https://github.com/liuchenhao512-art/Shanghan-Agent)。仓库包含代码、构建配置、文档、内置语料、图标及已有验证材料；个人资料、模型密钥、知识库备份、依赖环境、测试缓存和旧文件夹不上传。安装包与打包目录保留在本地，GitHub源码仓库不包含 `dist`；从仓库下载后请按下文配置开发环境或自行构建。
+**[下载 Windows 64位安装包 · v0.3.3](https://github.com/liuchenhao512-art/Shanghan-Agent/releases/download/v0.3.3/Shanghan-Agent-0.3.3-win-x64.exe)** · [发布说明与校验文件](https://github.com/liuchenhao512-art/Shanghan-Agent/releases/tag/v0.3.3) · [界面展示](#界面展示) · [开发与构建](#开发与构建)
 
-## 使用者入口
+## 下载与安装
 
-本地Windows试用安装包为 `dist/Shanghan-Agent-0.3.3-win-x64.exe`。0.3.3为知识库增加右侧“⋯”管理菜单，可直接预览删除；清理对话中的重复引用占位和开头固定说明，将参考资料集中在回答底部。正常对话与按需RAG继续保留。运行环境已包含在安装包中；这是未签名试用构建，干净系统安装、真实模型研读与 Mac 实机验收仍待进行。具体状态见 [项目计划](PROJECT_PLAN.md) 和 [本轮改版记录](验证记录/知识库管理与回复显示验收_2026-10-11.md)。
+当前提供 **Windows x64 0.3.3试用版**，安装包约143 MB，已包含运行环境，无需自行安装Python或Node.js。下载上方 `.exe` 后运行安装，打开应用即可离线阅读和检索；使用模型对话时，在“设置与备份”中填写兼容接口地址、模型名称与密钥。
+
+安装包通过GitHub Releases提供，校验值见发布附件 `SHA256SUMS.txt`。GitHub的 **Code → Download ZIP** 下载的是源码，普通使用者请选择上方安装包。当前安装包未签名；干净Windows系统安装、真实模型学术研读与Mac实机验收仍待完成，macOS安装包尚未发布。具体状态见 [项目计划](PROJECT_PLAN.md) 和 [0.3.3验收记录](验证记录/知识库管理与回复显示验收_2026-10-11.md)。
+
+## 界面展示
+
+以下为2026年10月12日真实桌面截图的功能标注版，可点击图片查看大图。截图展示已有界面与操作入口，其中模型回答仍需结合原文审核。
+
+### 经典研读：同屏比较条文与九家注释
+
+按篇章定位398条原文，筛选注家、查看教材解析，并围绕当前条文继续提问。
+
+[![经典研读功能分区：篇章目录、注家筛选、原文集注、导读与问答](docs/screenshots/01-classic-reading.png)](docs/screenshots/01-classic-reading.png)
+
+### 原书阅读：从集注回到完整上下文
+
+在九家著作之间切换，按卷次连续阅读，核对作者、书名和资料来源。
+
+[![原书阅读功能：选择注家著作、卷次目录、书名来源和连续正文](docs/screenshots/02-original-books.png)](docs/screenshots/02-original-books.png)
+
+### 我的知识库：按类别整理个人著作与文章
+
+建立知识库后，可导入PDF、EPUB、DOCX、TXT、Markdown或指定网页，并将所选知识库用于对话检索。下图为创建知识库前的界面，导入入口需建库后使用。
+
+[![个人知识库功能：新建知识库、导入资料、库内检索和专题成果入口](docs/screenshots/03-personal-library.png)](docs/screenshots/03-personal-library.png)
+
+### 专题研究：正常对话与按需检索
+
+围绕同一问题持续追问，选择参考知识库，展开研读过程，并在提供有效引用时打开原文核对；对话与草稿自动保存。
+
+[![专题研究功能：专题列表、检索范围、模型回答、追问与成果入口](docs/screenshots/04-research-chat.png)](docs/screenshots/04-research-chat.png)
+
+### 学习笔记：核对内容后确认保存
+
+保存前预览标题、正文和引文，确认后形成正式笔记，再按需导出Markdown或PDF。下图展示保存前的确认预览，底部确认按钮未完整入镜，不代表已经保存或导出。
+
+[![研读笔记保存前预览：标题、正文、确认说明和长文滚动区域](docs/screenshots/05-note-preview.png)](docs/screenshots/05-note-preview.png)
+
+## 使用说明
 
 1. **经典研读**：离线阅读398条条文、九家注解、原书、教材解析及关联条文。未配置模型时也可检索。
 2. **我的知识库**：左侧“知识库”旁点击“＋”，例如创建“近现代伤寒专著知识库”，按类别导入著作和文章。输入名称后一次确认创建；导入资料仍需核对正文与来源后确认。确认入库后即成为可检索资料，在专题对话的“资料范围”中选择该库即可使用，也可同时选择多个库。未选择的库不参与该条消息的检索；空库需先添加资料。创建知识库不会自动创建研究专题。
@@ -76,7 +114,7 @@ node scripts/qa-electron.cjs --packaged
 - `scripts`、`tests`：构建与验证入口。
 - `验证记录`：测试报告、界面截图和明确标记的程序验证样稿。
 
-不读取、复制或分发原项目 `.env`。个人资料、密钥、测试目录与安装包均不应混入公开源码仓库。当前项目不包含自动更新或公开发布流程。
+不读取、复制或分发原项目 `.env`。个人资料、密钥、知识库备份、依赖环境、测试目录与旧文件夹不进入公开源码仓库。安装包作为GitHub Releases附件提供，`build`、`dist`仍不纳入Git；当前通过人工核验后发布，不包含应用内自动更新或自动发布流程。
 
 默认个人资料保存在系统应用数据目录中的 `ShanghanAgent/library`。Windows 通常位于 `%APPDATA%\ShanghanAgent\library`，macOS 通常位于 `~/Library/Application Support/ShanghanAgent/library`；以“设置与备份”中显示的实际路径为准，可打开或切换资料目录。备份默认不包含模型密钥，换电脑后重新配置。
 
